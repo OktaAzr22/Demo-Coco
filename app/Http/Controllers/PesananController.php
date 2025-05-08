@@ -91,12 +91,10 @@ class PesananController extends Controller
     $query = Pesanan::with('produk')
         ->orderBy('created_at', 'desc');
 
-    // Filter berdasarkan status
     if ($request->has('status') && $request->status != '') {
         $query->where('status', $request->status);
     }
 
-    // Filter berdasarkan tanggal
     if ($request->has('tanggal') && $request->tanggal != '') {
         $query->whereDate('created_at', $request->tanggal);
     }

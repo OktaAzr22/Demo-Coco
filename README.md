@@ -1,16 +1,11 @@
 # Demo Coco
 
-Projek Laravel untuk manajemen produk, kategori, keranjang, dan pemesanan.
-
 ## 📦 Fitur
 
-- Manajemen **Kategori**
-- Manajemen **Produk**
-- Manajemen **Keranjang**
-- Manajemen **Pesanan**
-- Halaman Home menampilkan produk dalam bentuk kartu
-- Checkbox & tombol "Buat Pesanan" pada halaman Keranjang
-
+- ✅ **Kategori**
+- ✅ **Produk**
+- ✅ **Keranjang**
+- ✅ **Pesanan**
 ---
 
 ## ⚙️ Cara Menjalankan di Lokal
@@ -50,9 +45,9 @@ php artisan serve
 
 ---
 
-## 💡 Panduan untuk Github Codespaces
+## 💡 Untuk Github Codespaces
 
-> Untuk pengguna yang ingin melanjutkan projek ini lewat GitHub Codespaces:
+>
 
 ### 1. Buat File/Model/Controller Sekaligus:
 ```bash
@@ -60,7 +55,8 @@ php artisan make:model NamaModel -mcr
 ```
 Contoh:
 ```bash
-php artisan make:model Produk -mcr
+php artisan make:model abi -mcr
+dengan ini folder controller, migration, model dengan nama abi sudah ada siap ke step selanjutny
 ```
 
 ### 2. Lanjutkan dengan isi kode sesuai struktur projek ini.
@@ -81,14 +77,8 @@ Silakan fork repository ini dan pull request jika ingin menambahkan fitur atau p
 
 ## 📝 Catatan
 
-- Frontend masih menggunakan struktur dasar (belum menggunakan framework UI)
-- Halaman produk ditampilkan dalam bentuk **card**, dilengkapi:
-  - Gambar produk (full fit)
-  - Nama kategori
-  - Tombol tambah ke keranjang
-- Halaman keranjang dilengkapi:
-  - Checkbox untuk memilih produk yang ingin dipesan
-  - Tombol "Buat Pesanan"
-  - Form nama pemesan muncul saat konfirmasi
+- frontend masih pakek struktur dasar
+- coba fitur didalamnya baru muncul data" yang sudah di build di atas
+- backend coco demo selesai
 
 ---

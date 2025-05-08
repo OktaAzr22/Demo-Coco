@@ -4,7 +4,7 @@
 <h2 class="mb-4">Keranjang Belanja</h2>
 
 @if($keranjangs->isEmpty())
-    <p>Keranjang Anda kosong.</p>
+    <p>Keranjang  kosong.</p>
 @else
     <table class="table table-bordered table-striped">
         <thead>
